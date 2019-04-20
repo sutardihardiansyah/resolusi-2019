@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    overflow: hidden;
+    background-color: darkgray;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; */
+}
+
+nav a {
+    float: left;
+    padding: 15px 16px;
+    color: mintcream;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #000;
+}
+
+#dropdown {
+    float: left;
+    overflow: hidden;
+}
+#dropdown button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    padding: 15px 16px;
+    margin: 0;
+    font-size: 17px;
+    color: mintcream;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#dropdown-content a {
+    float: none;
+    color: navy;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+header {
+    background-image: url(Koala.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ header h1 {
+     color: honeydew;
+     text-align: center;
+     line-height: 500px;
+ }
+ 
+footer {
+    background-color: dimgrey;
+    padding: 5px 0;
+}
+
+footer p {
+    color: ivory;
+    text-align: center;
+}
